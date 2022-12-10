@@ -2,6 +2,6 @@
   "createNedDB" :  true,
   "dbName": "test",
   "dbServer": "localhost",
-  "password": "",
-  "userName": "root"
+  "password": "L!nkTeckn1Clean",
+  "userName": "matsPPCUser"
 }
