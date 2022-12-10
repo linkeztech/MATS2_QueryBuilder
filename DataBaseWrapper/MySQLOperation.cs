@@ -43,11 +43,12 @@ namespace MATS2_QueryBuilder.DataBaseWrapper
                 //bool DoYouNeedToCreateNewDB = false;
                 if (ConnJSON != null)
                 {
+                    DBCreateFlag = (bool)(ConnJSON["createNedDB"]);
                     DBServer = Convert.ToString(ConnJSON["dbServer"]);
                     UserId = Convert.ToString(ConnJSON["userName"]);
                     Password = Convert.ToString(ConnJSON["password"]);
                     DBName = Convert.ToString(ConnJSON["dbName"]);
-                    DBCreateFlag = (bool)(ConnJSON["createNedDB"]);
+                    
                 }
                 else
                 {
@@ -55,7 +56,10 @@ namespace MATS2_QueryBuilder.DataBaseWrapper
                     Console.ReadLine();
                     Environment.Exit(0);
                 }
-                ConnString = @"server=" + DBServer + ";database=" + DBName + ";userid=" + UserId + ";password=" + Password + ";" + "SslMode=none" + ";AllowPublicKeyRetrieval=True";
+                if (!DBCreateFlag)
+                    ConnString = @"server=" + DBServer + ";database=" + DBName + ";userid=" + UserId + ";password=" + Password + ";" + "SslMode=none" + ";AllowPublicKeyRetrieval=True";
+                else
+                    ConnString = @"server=" + DBServer + ";userid=" + UserId + ";password=" + Password + ";" + "SslMode=none" + ";AllowPublicKeyRetrieval=True";
             }
             catch (Exception ex)
             {

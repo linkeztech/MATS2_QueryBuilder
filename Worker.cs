@@ -20,6 +20,9 @@ namespace MATS2_QueryBuilder
             //This line is to check which code version is getting used 
             Console.WriteLine("Welcome to MATS Querybuilder - {0}", "V.0.1");
 
+
+            string str = GlobalVar.DBOpp.GetDBConnectionString();
+            Console.WriteLine(str);
             await base.StartAsync(cancellationToken);
         }
 
