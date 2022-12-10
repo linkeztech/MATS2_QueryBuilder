@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MATS2_QueryBuilder", "MATS2_QueryBuilder.csproj", "{D4453DEB-07AD-48F4-B7AC-53C3A81C1846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4453DEB-07AD-48F4-B7AC-53C3A81C1846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4453DEB-07AD-48F4-B7AC-53C3A81C1846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4453DEB-07AD-48F4-B7AC-53C3A81C1846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4453DEB-07AD-48F4-B7AC-53C3A81C1846}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6CD360A-0A54-416A-A165-9B07E8C01C25}
+	EndGlobalSection
+EndGlobal

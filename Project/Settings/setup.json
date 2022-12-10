@@ -1,0 +1,11 @@
+﻿{
+  "ip_address": "192.168.0.138",
+  "websocket_port": "9088",
+  "http_port": "8088",
+  "tcp_port": "9988",
+  "httpSrvEnabled": "true",
+  "wsSrvEnabled": "true",
+  "tcpSrvEnabled": "false",
+  "wsClientEnabled": "false",
+  "is_windows_server": true
+}

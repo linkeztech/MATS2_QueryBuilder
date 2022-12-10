@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "MATS2_QueryBuilder": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

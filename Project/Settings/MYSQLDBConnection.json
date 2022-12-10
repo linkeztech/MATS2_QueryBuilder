@@ -1,0 +1,7 @@
+{
+  "createNedDB" :  true,
+  "dbName": "test",
+  "dbServer": "localhost",
+  "password": "L!nkTeckn1Clean",
+  "userName": "matsPPCUser"
+}
